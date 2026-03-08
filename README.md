@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 
-<img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/70e8ad09-746e-471c-a045-75111d49e7e4" />
+
 
 # 🤖 Research Paper Q&A Bot
-=======
+<img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/70e8ad09-746e-471c-a045-75111d49e7e4" />
 # Research Paper Q&A Bot
 
 
@@ -13,7 +13,7 @@ A RAG (Retrieval-Augmented Generation) chatbot that lets you ask questions about
 **Tech stack:** Python · LangChain · ChromaDB · OpenAI  
 **Purpose:** Portfolio AI project demonstrating LLM integration and data pipeline engineering
 
-![Demo](demo.png)
+
 
 ---
 
