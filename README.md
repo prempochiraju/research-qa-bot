@@ -5,7 +5,7 @@
 # 🤖 Research Paper Q&A Bot
 =======
 # Research Paper Q&A Bot
->>>>>>> 2a4eac13 (Clean up README, add professional documentation)
+
 
 A RAG (Retrieval-Augmented Generation) chatbot that lets you ask questions about research papers and get answers with cited sources.
 
