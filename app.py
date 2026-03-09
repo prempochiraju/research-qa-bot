@@ -1,4 +1,29 @@
-﻿import os
+"""
+Research Paper Q&A Bot
+
+This script creates a simple question–answering system for research papers.
+It loads PDF files from a local folder, splits the text into smaller chunks,
+and generates embeddings using OpenAI's embedding model. These embeddings
+are stored in a Chroma vector database for efficient similarity search.
+
+When a user asks a question, the system retrieves the most relevant document
+sections and sends them to a language model to generate an answer based only
+on the retrieved context. The program also prints the source file names and
+page numbers used to produce the response.
+
+Requirements:
+- OpenAI API key set as environment variable (OPENAI_API_KEY)
+- PDF papers placed inside the ./papers directory
+
+Main Components:
+1. Indexing PDFs and creating embeddings
+2. Loading the vector database
+3. Retrieving relevant document chunks
+4. Generating answers using a language model
+"""
+
+
+import os
 import sys
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
