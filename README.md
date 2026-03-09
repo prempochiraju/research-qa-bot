@@ -54,7 +54,7 @@ User Question  -->  Embed  -->  Similarity Search (top 4 chunks)
 1. PDFs are split into overlapping chunks and embedded using OpenAI
 2. Vectors are stored locally in ChromaDB — no cloud database needed
 3. Each question is embedded and matched against the stored chunks
-4. The top 4 matching chunks are sent to GPT-3.5 with the question to generate an answer
+4. The top 4 matching chunks are sent to GPT-3.5 with the question to generate answers 
 
 ---
 
