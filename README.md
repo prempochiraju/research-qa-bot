@@ -1,7 +1,3 @@
-
-
-
-
 # 🤖 Research Paper Q&A Bot
 <img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/70e8ad09-746e-471c-a045-75111d49e7e4" />
 # Research Paper Q&A Bot
