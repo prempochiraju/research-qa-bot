@@ -20,6 +20,7 @@ Main Components:
 2. Loading the vector database
 3. Retrieving relevant document chunks
 4. Generating answers using a language model
+@author Prem Pochiraju
 """
 
 
