@@ -132,6 +132,6 @@ Total to build and demo this project: under $1.00
 
 ## Author
 
-**Prem Pochiraju**  
+**Prem S Pochiraju**  
 M.S. Computer Engineering, Florida Institute of Technology  
 [LinkedIn](https://www.linkedin.com/in/prem-pochiraju/) · [GitHub](https://github.com/prempochiraju) · prempochiraju@gmail.com
