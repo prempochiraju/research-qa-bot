@@ -58,7 +58,30 @@ def index_papers():
     )
     print("Done!")
     return vs
+#----------------------------------------------------    
+def index_papers_arase():
+    print("\nLoading PDFs from ./papers ...")
+    docs = DirectoryLoader(
+        PAPERS_DIR, glob="**/*.pdf",
+        loader_cls=PyPDFLoader, show_progress=True
+    ).load()
+    if not docs:
+        print("No PDFs found. Add PDFs to ./papers first.")
+        sys.exit(1)
+    print(f"{len(docs)} pages loaded.")
+    chunks = RecursiveCharacterTextSplitter(
+        chunk_size=1000, chunk_overlap=150
+    ).split_documents(docs)
+    print(f"{len(chunks)} chunks. Embedding now (takes ~30 sec)...")
+    vs = Chroma.from_documents(
+        chunks,
+        OpenAIEmbeddings(model="text-embedding-3-small"),
+        persist_directory=CHROMA_DIR
+    )
+    print("Done!")
+    return vs
 
+#----------------------------------------------------  
 def load_index():
     print("Loading existing index...")
     return Chroma(
