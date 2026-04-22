@@ -6,7 +6,7 @@
 A RAG (Retrieval-Augmented Generation) chatbot that lets you ask questions about research papers and get answers with cited sources.
 
 **Built by:** Prem Pochiraju  
-**Tech stack:** Python · LangChain · ChromaDB · OpenAI  
+**Tech stack:** Python · LangChain · ChromaDB · OpenAI . claude
 **Purpose:** Portfolio AI project demonstrating LLM integration and data pipeline engineering
 
 
